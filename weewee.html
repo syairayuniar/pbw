@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Syaira Yuniar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      display: flex;
+      min-height: 100vh;
+      color: #333;
+    }
+
+    /* Bagian kiri */
+    .left-section {
+      width: 35%;
+      background-color: #d9c8f0;
+      padding: 40px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Foto profil */
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      margin-bottom: 30px;
+    }
+
+    .section-title {
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      text-align: left;
+      align-self: flex-start;
+    }
+
+    .contact ul, .education ul {
+      list-style: none;
+      line-height: 1.8;
+    }
+
+    .contact li, .education li {
+      margin-bottom: 5px;
+    }
+
+    .education span {
+      font-weight: bold;
+    }
+
+    /* Bagian kanan */
+    .right-section {
+      width: 65%;
+      background-color: #fff;
+      padding: 50px 60px;
+    }
+
+    .name {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .desc {
+      font-size: 15px;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #999;
+      margin: 20px 0;
+    }
+
+    .subsection-title {
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin-left: 20px;
+      line-height: 1.7;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+      .left-section, .right-section {
+        width: 100%;
+      }
+      .left-section {
+        align-items: flex-start;
+      }
+      .profile-pic {
+        align-self: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Bagian kiri -->
+  <div class="left-section">
+    <img src="foto.jpg" alt="Foto Syaira Yuniar" class="profile-pic">
+    
+    <div class="contact">
+      <h3 class="section-title">CONTACT</h3>
+      <ul>
+        <li>syairayuniar97@gmail.com</li>
+        <li>0895320821990</li>
+        <li>Jl. H. Marsan No. 102 Pengasinan, Sawangan</li>
+      </ul>
+    </div>
+
+    <div class="education">
+      <h3 class="section-title">EDUCATION</h3>
+      <ul>
+        <li><span>2023 – (SEKARANG):</span><br>Universitas Gunadarma</li>
+        <li><span>2020 – 2023:</span><br>SMA Negeri 5 Depok</li>
+        <li><span>2017 – 2020:</span><br>SMP Negeri 10 Depok</li>
+        <li><span>2011 – 2017:</span><br>MI Al-Khoiriyah Depok</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bagian kanan -->
+  <div class="right-section">
+    <h1 class="name">Syaira<br>Yuniar</h1>
+    <p class="desc">
+      Saya adalah seorang mahasiswa Sistem Informasi Semester 5 Universitas Gunadarma yang bersemangat untuk belajar dan berkontribusi dalam dunia teknologi.
+    </p>
+    <hr>
+
+    <div class="experience">
+      <h3 class="subsection-title">EXPERIENCE</h3>
+      <ul>
+        <li>Menjadi Staff Media Kreatif BEM FIKTI UG 2024/2025</li>
+        <li>Menjadi Koordinator Divisi Media pada Event FIKTI SPACE 4.0</li>
+        <li>Menjadi Koordinator Divisi Media pada Studi Banding BEM FIKTI UG Bersama BEM FTI UNTAR</li>
+      </ul>
+    </div>
+
+    <br>
+    <div class="skills">
+      <h3 class="subsection-title">KETERAMPILAN</h3>
+      <ul>
+        <li>Mampu berkomunikasi dengan baik secara lisan maupun tertulis</li>
+        <li>Mampu menggunakan software Figma dengan baik</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
